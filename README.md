@@ -20,8 +20,11 @@ cqlsh> CREATE TABLE test.test (id int PRIMARY KEY, name text, values map<text,te
 cqlsh> INSERT INTO test.test (id, name, values) VALUES (1,'Josemy Duarte',{'J':'D'});
 ```
 After having Cassandra ready, we have to:
+
 1. Clone or download the git.
+
 2. Import the project in Eclipse.
+
 3. Run the application in Eclipse.
 
 ### Libraries
