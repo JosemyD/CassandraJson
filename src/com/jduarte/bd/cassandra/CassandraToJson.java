@@ -70,7 +70,7 @@ public class CassandraToJson {
 
 	Cluster cluster = Cluster.builder()
 	  .addContactPoint(getHost())
-	  .withCredentials(getUser(), getPassword())
+	  //.withCredentials(getUser(), getPassword())
 	  .build();
 	
 	return cluster.connect(getKeyspace());
@@ -101,8 +101,8 @@ public class CassandraToJson {
 	public static void main(String[] args) {
 		setHost("localhost");
 		setKeyspace("test");
-		setUser("cassandra");
-		setPassword("cassandra");		
+		//setUser("cassandra");
+		//setPassword("cassandra");		
 		ResultSet rs = Query("SELECT * FROM test.test limit 1;", getHost(), getKeyspace());
 		Row row;
 		while(rs.isExhausted() == false){
