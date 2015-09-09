@@ -15,7 +15,7 @@ public class CassandraToJson {
 	private static String password;
 	private static Session Conexion = null;
 	
-	/*Model of table in Cassandra*/
+	/*Model of table in Cassandra - Check ModelCassandra.java*/
 	private static ModelCassandra modelRow = new ModelCassandra();
 	
 	public static String getHost() {
