@@ -36,3 +36,6 @@ Libraries used:
 * netty-3.7.0.Final.jar
 * slf4j-api-1.7.2.jar
 
+### Link to Cassandra
+- [DataStax Community Edition — Apache Cassandra](http://www.planetcassandra.org/cassandra/) Version that I used: 2.1.9
+
